@@ -7,16 +7,12 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Wikipedia API</h1>
+  <h1>Google Maps API</h1>
 
-  <form id="searchForm">
-    <label for="wikiQuery">Search Wikipedia for: </label>
-    <input id="wikiQuery" type="text" placeholder="kittens">
-    <input type="submit">
-  </form>
+  <div id="map"></div>
 
-  <ul id="demo"></ul>
-
-  <script src="javascript/xmlhttp.js"></script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=YOUR-API-KEY-HERE&callback=initMap"></script>
+  <script src="javascript/scripts.js"></script>
 </body>
 </html>
