@@ -15,10 +15,12 @@ function initMap() {
   // these set different markers you want to show on your map
   let markerDMU = new google.maps.Marker({
     position: dmu,
-    map: map
+    map: map,
+    title: 'The Good Guys'
   });
   let markerUoL = new google.maps.Marker({
     position: uol,
-    map: map
+    map: map,
+    title: 'The Bad Guys'
   });
 }
