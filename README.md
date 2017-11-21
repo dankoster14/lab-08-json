@@ -10,8 +10,8 @@ The [JavaScript API Tutorial](https://developers.google.com/maps/documentation/j
 
 ## Different zoom levels:
 
-1: World
-5: Landmass/continent
-10: City
-15: Streets
-20: Buildings
+- 1: World
+- 5: Landmass/continent
+- 10: City
+- 15: Streets
+- 20: Buildings
