@@ -3,7 +3,7 @@
 function initMap() {
   let leicester = {lat: 52.6333, lng: -1.1333};
   let dmu = {lat: 52.629311, lng: -1.137836};
-  let uol = {lat: 52.620956, lng: -1.124049};
+  let rsb = {lat: 52.629307, lng: -1.136229};
   let mapDemo = document.getElementById("map");
 
   // this sets the default location for when the map is first loaded
@@ -16,11 +16,11 @@ function initMap() {
   let markerDMU = new google.maps.Marker({
     position: dmu,
     map: map,
-    title: 'The Good Guys'
+    title: 'Uni Location'
   });
-  let markerUoL = new google.maps.Marker({
-    position: uol,
+  let markerRSB = new google.maps.Marker({
+    position: rsb,
     map: map,
-    title: 'The Bad Guys'
+    title: 'Rileys Location'
   });
 }
